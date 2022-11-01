@@ -1,0 +1,5 @@
+.fbox3 > div[class*="col"] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+

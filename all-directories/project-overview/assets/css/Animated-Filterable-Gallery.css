@@ -1,0 +1,134 @@
+.filtr-item {
+  padding-top: 30px;
+}
+
+.filtr-controls span {
+  cursor: pointer;
+}
+
+.filtr-controls span.active {
+  left: 0;
+  background-color: #ffffff !important;
+}
+
+.filtr-loading {
+  border: 5px solid #333;
+  position: relative;
+  border-radius: 40px;
+  height: 40px;
+  left: 50%;
+  margin: 80px 0;
+  opacity: 0;
+  top: 0;
+  width: 40px;
+  z-index: 2;
+  -webkit-animation: pulsate 1s ease-out infinite;
+  animation: pulsate 1s ease-out infinite;
+}
+
+@keyframes pulsate {
+}
+
+#portfolio {
+  background-color: #FFDD99;
+  text-align: center;
+}
+
+#portfolio .container span {
+  background: #ebc985;
+  padding: 0px 18px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#portfolio .container .filtr-container img {
+  width: 90%;
+}
+
+.gallery-pt--body {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-pt--filter-container {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 24px;
+  text-decoration: none;
+  /*color: #ccc;*/
+}
+
+.gallery-pt--filter-container a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.gallery-pt--filter-container .list-item {
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-pt--filter-container li:after {
+  content: " / ";
+  color: #ddd;
+}
+
+.gallery-pt--filter-container li:last-child:after {
+  content: "";
+}
+
+.gallery-pt--filter-container li a:hover {
+  color: rgb(76,177,249);
+}
+
+.gallery-pt--filter-container li.active a {
+  color: lightgreen;
+}
+
+.gallery-pt--body .thumbnail {
+  border: none;
+}
+
+.gallery-pt--body .item {
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#portfolio p {
+  color: #25231e;
+}
+
+#portfolio h2 {
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #393939;
+}
+
+#portfolio h2::after {
+  background-color: #e5c37f;
+  width: 100px;
+  height: 3px;
+  display: block;
+  content: '';
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#portfolio .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#portfolio .into p {
+  margin-bottom: 0;
+}
+
